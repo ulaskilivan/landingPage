@@ -50,15 +50,72 @@ html{
 #home .name p{
     opacity: 0.6;
 }
-/* #home a{
-    margin-top:1.25rem;
-    background: #336ea2;
-    padding: 0.8rem 3rem;
-    border-radius: 10px;
-    letter-spacing: 1px;
+#training{
+    color: white;
+    padding: 1rem;
 }
-#home a:hover{
-    color: #336ea2;
-    background:white;
-    border: 0.5px solid #336ea2;
-} */
+#training .items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#training .items .item{
+    width: 33%;
+    text-align: center;
+    padding: 0.5rem;
+}
+#training .items .item:hover{
+    color: bisque;
+}
+#courses{
+    color: #333;
+    padding: 1rem;
+}
+.course-image img{
+    width: 300px;
+    position: relative;
+
+}
+.courses{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+.courses .course{
+    display: flex;
+    padding: 1rem;
+    margin-bottom: 0.5rem;
+}
+.courses .course .course-image{
+    margin-right: 0.5rem;
+    position: relative;
+}
+.courses .course .course-image span{
+    background: red;
+    padding: 0.25rem;
+    color: white;
+    border-radius: 4px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.courses .course .course-info .title{
+    letter-spacing: 1.2px;
+    font-weight: 700;
+    margin-bottom: 0.25em;
+}
+.courses .course .course-info .description{
+    letter-spacing: 1.2px;
+    opacity: 0.6;
+    margin-bottom: 0.25em;
+}
+.courses .course .course-info .instructor{
+    font-size: 0.8rem;
+    opacity: 0.6;
+    margin-bottom: 0.25em;
+}
+.courses .course .course-info .rating{
+    font-size: 0.8rem;
+    opacity: 0.6;
+    margin-bottom: 0.25em;
+}
