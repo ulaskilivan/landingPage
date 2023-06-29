@@ -30,3 +30,35 @@ html{
     background: #336ea2;
     border-radius: 4px;
 }
+#profile-picture{
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius:100% ;
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    border-bottom: 1px solid grey;
+}
+#home .name h2{
+    margin-bottom: 0.75rem;
+}
+#home .name p{
+    opacity: 0.6;
+}
+/* #home a{
+    margin-top:1.25rem;
+    background: #336ea2;
+    padding: 0.8rem 3rem;
+    border-radius: 10px;
+    letter-spacing: 1px;
+}
+#home a:hover{
+    color: #336ea2;
+    background:white;
+    border: 0.5px solid #336ea2;
+} */
